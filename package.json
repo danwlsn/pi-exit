@@ -1,6 +1,6 @@
 {
   "name": "pi-exit",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Adds /exit and :q as aliases for /quit in pi",
   "keywords": ["pi-package"],
   "license": "MIT",

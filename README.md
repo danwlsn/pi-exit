@@ -5,7 +5,7 @@ A [pi](https://github.com/earendil-works/pi) extension that adds `/exit` and `:q
 ## Install
 
 ```bash
-pi install git:github.com/danwlsn/pi-exit@v0.1.0  # from github
+pi install git:github.com/danwlsn/pi-exit@v0.2.0  # from github
 pi install ./pi-exit                              # from local clone
 ```
 
