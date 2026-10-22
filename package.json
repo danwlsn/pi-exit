@@ -1,0 +1,14 @@
+{
+  "name": "pi-exit",
+  "version": "0.1.0",
+  "description": "Adds /exit as an alias for /quit in pi",
+  "keywords": ["pi-package"],
+  "license": "MIT",
+  "files": ["extensions"],
+  "pi": {
+    "extensions": ["./extensions/exit.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
