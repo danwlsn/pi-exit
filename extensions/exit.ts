@@ -7,4 +7,12 @@ export default function (pi: ExtensionAPI) {
 			ctx.shutdown();
 		},
 	});
+
+	pi.on("input", async (event, ctx) => {
+		if (event.source !== "extension" && event.text.trim() === ":q") {
+			ctx.shutdown();
+			return { action: "handled" };
+		}
+		return { action: "continue" };
+	});
 }

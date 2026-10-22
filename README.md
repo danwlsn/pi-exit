@@ -1,6 +1,6 @@
 # pi-exit
 
-A [pi](https://github.com/earendil-works/pi) extension that adds `/exit` as an alias for the built-in `/quit`.
+A [pi](https://github.com/earendil-works/pi) extension that adds `/exit` and `:q` as aliases for the built-in `/quit`.
 
 ## Install
 
@@ -15,4 +15,4 @@ Or try it for one session:
 pi -e ./extensions/exit.ts
 ```
 
-Then type `/exit`.
+Then type `/exit` or `:q`.
