@@ -5,7 +5,8 @@ A [pi](https://github.com/earendil-works/pi) extension that adds `/exit` as an a
 ## Install
 
 ```bash
-pi install ./pi-exit
+pi install git:github.com/danwlsn/pi-exit@v0.1.0  # from github
+pi install ./pi-exit                              # from local clone
 ```
 
 Or try it for one session:
